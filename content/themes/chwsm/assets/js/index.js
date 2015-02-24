@@ -34,9 +34,9 @@
 
     $document.ready(function () {
 
-        $(document).on("click", ".roundArrow", function() {
+        $(document).on("click", ".round-arrow", function() {
           $('html, body').animate({
-            scrollTop: $("#scrollToAnc").offset().top - 80
+            scrollTop: $(".post-content").offset().top - 130
           }, 1000);
         });
 

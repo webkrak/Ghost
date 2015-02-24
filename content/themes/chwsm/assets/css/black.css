@@ -1,5 +1,13 @@
 body.home-template {
-  margin-top:80px; background:#000; background-size:100%; background-position:0 80px;
+  margin-top: 80px;
+  background: #000;
+  background-size: 100%;
+  background-position: 0 80px;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
 }
 
 .home-template footer  { width:100%; height:100px; background:#000; color:#fff; border-top:1px #262626 solid; margin-top:30px; padding-top:30px; }
@@ -22,10 +30,6 @@ body.home-template {
   width:80%;
   padding:10% 10% 0 10%;
   min-height: 500px;
-}
-
-.slider-0 {
-  background-image: url('../images/sliders/szpital.jpg');
 }
 
 .slider-1 {
