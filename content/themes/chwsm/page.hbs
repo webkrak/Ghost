@@ -5,28 +5,43 @@
 
 {{! Everything inside the #post tags pulls data from the page }}
 {{#post}}
+  <div class="{{post_class}}">
+    <div class="oAdoracji">
+      <span class="extrabold" style="margin-top: 70px; font-size:100px;">NA ADORACJI</span>
+      <span class="light" style="margin-top: -20px; font-size:50px; ">ROZMAWIAMY BEZPOŚREDNIO Z BOGIEM</span>
+      <span class="petit yellow" style="margin-top: -10px; font-size:54px;">-  dosłownie "z ust do ust".</span>
+      <div class="clear"></div>
+      <div class="roundArrow"></div>
+    </div>
 
-<header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
-    <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
-        <a class="back-button icon-arrow-left" href="{{@blog.url}}">Home</a>
-        <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
-    </nav>
-</header>
+    <div id="scrollToAnc" class="mainWrap mainWrapminh" style="min-height:430px;">
+      <span class="petit black alignCenter" style="margin-top: 50px; font-size:36px;">{{title}}</span>
+      <span class="petit gray alignCenter" style="font-size:18px; line-height: 35px;">{{content}}</span>
+    </div>
 
-<main class="content" role="main">
+    <div class="oAdoracji2"></div>
 
-    <article class="{{post_class}}">
-    {{! Everything inside the #post tags pulls data from the post }}
+    <div class="mainWrap mainWrapminh">
+      <div class="oAdoracjiboxColumn">
+        <div class="oAdracjiLeft">
+            <span class="bold darkBlue" style="font-size: 22px; margin-bottom: 20px;">Jak mam się na adoracji modlić?</span>
 
-        <header class="post-header">
-            <h1 class="post-title">{{title}}</h1>
-        </header>
+            <span class="reular darkBlue" style="font-size: 14px;">
+              To jest okazja, aby całkowicie otworzyć się przed Bogiem. To czas na intymną modlitwę. Zapraszamy do włączenia się w prowadzone przez nas rozważania i do śpiewu, ale przede wszystkimi do prawdziwej rozmowy z Jezusem. Powiedz Mu wszystko, co Ci leży na sercu. Opowiedz Mu <br />o Twoich radościach i troskach. Przeproś za to, co było złe. Podziękuj za to, co było dobre. Poproś Go o radę <br />w sprawach życiowych. On pragnie do Ciebie przemówić. Wycisz swoje serce i umysł, by usłyszeć to, co On ma Ci <br />do powiedzenia.
+            </span>
+        </div>
 
-        <section class="post-content">
-            {{content}}
-        </section>
+        <div class="oAdoracjiRight">
+            <span class="bold darkBlue" style="font-size: 22px; margin-bottom: 20px;">A jeśli dawno nie byłem w Kościele albo nie jestem katolikiem?</span>
+            <span class="reular darkBlue" style="font-size: 14px;">Wszyscy są zaproszeni do włączenia się w tę modlitwę. <br />Bóg sam przywołał Cię tutaj - nie ma przypadków. <br />Jeśli od dawna nie było Cię w Kościele i pragniesz porozmawiać z księdzem - jest taka możliwość. <br />A jeśli nie jesteś katolikiem, po prostu poproś Boga, <br />by otworzył Twoje serce i umysł oraz by pomógł Ci <br />się pomodlić. Możesz także poprosić osoby z naszej ekipy, jeśli chciałbyś, żeby ktoś z nas pomodlił się z Tobą.</span>
+        </div>
 
-    </article>
+        <div class="clear"></div>
+      </div>
 
-</main>
+      <a href="{{@blog.url}}/co-dalej" class="coDalejButton">
+        <span class="bold gray alignCenter" style="font-size:12px;">CO DALEJ</span>
+      </a>
+    </div>
+  </div>
 {{/post}}

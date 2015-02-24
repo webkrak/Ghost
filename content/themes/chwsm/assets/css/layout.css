@@ -108,3 +108,64 @@ div.roundArrow:hover { background-position:0 0; background-color: #ffeb0e; width
 .bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item { display: inline-block; *zoom: 1; *display: inline; }
 .bx-wrapper .bx-pager.bx-default-pager a {  text-indent: -9999px; display: block; width: 16px; height: 16px; margin: 0 10px; outline: 0; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;  background: none; border: solid 2px #fff; }
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active { border: solid 2px #ffeb0e; background: #ffeb0e; }
+
+/* o-adoracji */
+.oAdoracji { width:80%; height:560px; background:url('../images/o-adoracji1.jpg') no-repeat center; background-size: cover; background-attachment: fixed; padding:0 10%; background-position: center center; }
+
+.oAdoracji2 { width:100%; height:500px; background:url('../images/o-adoracji2.jpg') no-repeat center; background-attachment: fixed; background-position: center center; }
+
+.oAdoracjiboxColumn {margin-top: 40px;  width:100%; }
+
+.coDalejButton{ display:block; background:url('../images/arrowRight.png') no-repeat #fff; background-position: 90% 50%; border: 2px solid #1e2e3c; width:210px; height:12px; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; padding: 12px 0; line-height: 12px; margin:50px auto 0 auto; }
+.coDalejButton:hover { background-color: #FFEB0E; border-color: #FFEB0E;}
+
+
+.oAdracjiLeft { float:left; width:40%; }
+.oAdoracjiRight { float:right; width:40%; }
+/* kontakt */
+.coDalej  { width:80%; height:700px; background:url('../images/co-dalej.jpg') no-repeat center; background-size: cover; background-attachment: fixed; padding:0 10%; background-position: center center; }
+
+/*co dalej */
+.coDalejRight { width:47%; float:right; }
+.coDalejLeft { width:47%; float:left; }
+
+.coDalejInfoBox { padding:90%; padding:5%; }
+.coDalejInfoBox .tresc { float:right; width:83%; }
+.coDalejInfoBox .wypunktowanie { height:100%; float:left; margin:15px 0 0 0; }
+.coDalejInfoBox .wypunktowanie .ring { display: block; width:28px; height:28px; outline: 0; -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; background: none; border:6px #c8c6cd solid; float:left; }
+.coDalejInfoBox .wypunktowanie .blueRing { display: block; width:28px; height:28px; outline: 0; -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; background:url('../images/bluearrows.png') no-repeat center center; border:6px #00aeff solid; float:left; }
+.coDalejInfoBox .wypunktowanie .smallRing { display: block; width:18px; height:18px; outline: 0; -moz-border-radius: 9px; -webkit-border-radius: 9px; border-radius: 9px; background: none; float:left; background: #00aeff;}
+
+/*dlaczegoIKto*/
+.dlaczegoIKto { width:80%; height:700px; background:url('../images/dlaczego-i-kto.jpg') no-repeat center; background-size: cover; background-attachment: fixed; padding:0 10%; background-position: center center; }
+.dlaczegoOsoba { float:left; width:50%; margin:10px 0 0 0; }
+.dlaczegoOsoba hr { float: left; width: 80%; margin: 30px 0 0 0; }
+.dlaczegoOsoba .person { width:100%; float: left; position: relative; }
+.dlaczegoOsoba .person img { width:180px; height: 180px; display: block; float: left; -webkit-border-radius: 90px; -moz-border-radius: 90px; border-radius: 90px;  }
+.dlaczegoOsoba .person span { display: block; margin: 14% 0 0 40px; }
+.dlaczegoOsoba .about { font-family: 'Arial, Helvetica', sans-serif; color:#506072; margin:20px 0; padding: 0 90px 0 0; float:left; line-height: 30px;  }
+.dlaczegoOsoba .email { background: url('../images/koperta.png') top left no-repeat; float:left; height:26px; font-size:24px; line-height: 24px; padding:0 0 0 50px; font-weight:300; font-family: 'Open Sans', sans-serif; color:#ac646a; margin: 20px 0 0 0; }
+
+/* kontakt */
+div.kontaktTextTop { color:red; }
+.googleMap { width:100%; height: 430px; background:#fff; position: relative; }
+.googleMap img { position: absolute; margin: auto; top:0; bottom: 0; left:0; right: 0; }
+.googleMap iframe { opacity: 1; }
+.gradiendBackgorund { background: #1d2f4f; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMWQyZjRmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQxMjEzNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+                      background: -moz-linear-gradient(45deg,  #1d2f4f 0%, #412134 100%); background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#1d2f4f), color-stop(100%,#412134)); background: -webkit-linear-gradient(45deg,  #1d2f4f 0%,#412134 100%); background: -o-linear-gradient(45deg,  #1d2f4f 0%,#412134 100%); background: -ms-linear-gradient(45deg,  #1d2f4f 0%,#412134 100%); background: linear-gradient(45deg,  #1d2f4f 0%,#412134 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d2f4f', endColorstr='#412134',GradientType=1 );  }
+
+.kontaktBox .boxLeft, .kontaktBox .boxRight {  height:240px; width:32%; padding: 5%; }
+.kontaktBox .boxLeft, .kontaktInfo .left, .kontaktInfo { float:left; }
+.kontaktBox .boxRight, .kontaktInfo .right { float:right; position: relative; }
+.newsletter { margin:20px 0; font-family: 'Open Sans', sans-serif;  color: #fff; font-size: 12px; }
+.kontaktInfo { width: 100%; padding:40px 0; position: relative; }
+.kontaktInfo .left {   }
+.kontaktInfo .right { width:380px; padding:15px 0 0 0; }
+.kontaktInfo .arrowMiddle { width:85px; height:15px; background: url('../images/thinarrow.png'); margin: 50px auto;  position: absolute; right: 0; left: 0;}
+.newsletter input { font-weight: 600; border:0; outline: none; width:220px; height:20px; background:#10101e; padding: 7px; display: block; float: left; color:#fff; margin-bottom: 10px; }
+.newsletter a { display: block; display: block; float: right; line-height: 16px; padding:7px 14px; border:2px solid #fff; cursor: pointer;}
+.dolaczDoNas { margin-top:45px; }
+.newsletter span { opacity: 0; font-size: 18px; }
+.newsletter span.error { color:#C72222;  margin-top: 10px; }
+.newsletter span.success { color:#fff; }
+.newsletter span.success b { font-weight: 600; }
