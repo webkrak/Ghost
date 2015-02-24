@@ -1,16 +1,16 @@
 body {  margin-top:80px; background:#000; background-size:100%; background-position:0 80px;  }
 
 footer  { width:100%; height:100px; background:#000; color:#fff; border-top:1px #262626 solid; margin-top:30px; padding-top:30px; }
-footer .footWrap .topRow .topRowleft .logo { display:block; text-indent:-9999px; background:url('/img/logoBottom.png') no-repeat center;  width:116px; height:21px; float:left; }
+footer .footWrap .topRow .topRowleft .logo { display:block; text-indent:-9999px; background:url('../images/logoBottom.png') no-repeat center;  width:116px; height:21px; float:left; }
 footer div { background:inherit !important; color:inherit !important; }
 
 footer .footWrap .topRow .topRowright .menu { float:right; color:#000; font-family: 'Open Sans', sans-serif; text-transform:uppercase; font-size:11px; height:12px; padding:0; }
 
-footer .footWrap .bottomRow .bottomRowright li.pineterest { background:url('/img/small/pinterest.png'); width:12px; height:12px; }
+footer .footWrap .bottomRow .bottomRowright li.pineterest { background:url('../images/small/pinterest.png'); width:12px; height:12px; }
 footer .footWrap .bottomRow .bottomRowright li.pineterest:hover { background-position:0 12px; }
-footer .footWrap .bottomRow .bottomRowright li.facebook { background:url('/img/small/facebook.png'); width:6px; height:12px; }
+footer .footWrap .bottomRow .bottomRowright li.facebook { background:url('../images/small/facebook.png'); width:6px; height:12px; }
 footer .footWrap .bottomRow .bottomRowright li.facebook:hover { background-position:0 12px; }
-footer .footWrap .bottomRow .bottomRowright li.twitter { background:url('/img/small/twitter.png'); width:15px; height:12px; }
+footer .footWrap .bottomRow .bottomRowright li.twitter { background:url('../images/small/twitter.png'); width:15px; height:12px; }
 footer .footWrap .bottomRow .bottomRowright li.twitter:hover { background-position:0 12px; }
 footer .footWrap .topRow .topRowright .menu a:hover { color:#ffeb0e; }
 
@@ -23,15 +23,15 @@ footer .footWrap .topRow .topRowright .menu a:hover { color:#ffeb0e; }
 }
 
 .slider-0 {
-  background-image: url('/img/sliders/szpital.jpg');
+  background-image: url('../images/sliders/szpital.jpg');
 }
 
 .slider-1 {
-  background-image: url('/img/sliders/glownaBG.jpg');
+  background-image: url('../images/sliders/glownaBG.jpg');
 }
 
 .slider-2 {
-  background-image: url('/img/sliders/glownaBG2.jpg');
+  background-image: url('../images/sliders/glownaBG2.jpg');
 }
 
 

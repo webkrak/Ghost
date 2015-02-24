@@ -1,25 +1,27 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
-{{! The big featured header }}
-<header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
-    <nav class="main-nav overlay clearfix">
-        {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
-        <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">{{@blog.title}}</h1>
-            <h2 class="page-description">{{@blog.description}}</h2>
-        </div>
+<ul class="bxslider">
+  <li>
+    <div class="sliders slider-1">
+      <span class="extrabold" style="margin-top: 10px; font-size:113px;">CHRYSTUS</span>
+      <span class="light" style="margin-top: -30px; font-size:54px; ">W STARYM MIEŚCIE.</span>
+      <span class="petit yellow" style="margin-top: -10px; font-size:48px;">Spotkaj Go.</span>
+
+      <span class="light" style="font-size:24px; margin-top: 50px;">KAŻDY OSTATNI CZWARTEK MIESIĄCA.</span>
+      <span class="light" style="font-size:24px;">BAZYLIKA MARIACKA, KRAKÓW, <b style="font-weight:800;">19:30</b></span>
+      <div class="clear"></div>
     </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
-</header>
+  </li>
 
-{{! The main content area on the homepage }}
-<main id="content" class="content" role="main">
-
-    {{! The tag below includes the post loop - partials/loop.hbs }}
-    {{> "loop"}}
-
-</main>
+  <li>
+    <div class="sliders slider-2">
+      <span class="extrabold" style="margin-top: 10px; font-size:113px;">CHRYSTUS</span>
+      <span class="light" style="margin-top: -30px; font-size:54px; ">W STARYM MIEŚCIE.</span>
+      <span class="petit yellow" style="margin-top: -10px; font-size:48px;">Spotkaj Go.</span>
+      <div class="clear"></div>
+      <div id="countdown"></div>
+      <div class="clear"></div>
+    </div>
+  </li>
+</ul>

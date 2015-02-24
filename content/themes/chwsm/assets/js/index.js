@@ -35,9 +35,21 @@
     $document.ready(function () {
 
         $(document).on("click", ".roundArrow", function() {
-            $('html, body').animate({
-              scrollTop: $("#scrollToAnc").offset().top - 80
-            }, 1000);
+          $('html, body').animate({
+            scrollTop: $("#scrollToAnc").offset().top - 80
+          }, 1000);
+        });
+
+        $('.bxslider').bxSlider({
+          mode: 'fade',
+          captions: false,
+          controls: false,
+          auto: true,
+          pause: 4000
+        });
+
+        $('#countdown').countdown({
+          timestamp: Date.parse('02/26/2015 18:30')
         });
 
         var $postContent = $(".post-content");
