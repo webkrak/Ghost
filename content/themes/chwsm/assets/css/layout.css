@@ -154,6 +154,10 @@ span.red { color: #971612; }
   padding: 12px 0;
   line-height: 12px;
   margin: 50px auto 0 auto;
+  font-size: 12px;
+  text-align: center;
+  color: #021d29 !important;
+  text-decoration: none !important;
 }
 
 .next-step:hover {
